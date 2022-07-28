@@ -34,8 +34,7 @@ public class TileConverter : MonoBehaviour
         offset = (map.origin * 2) + (new Vector3(map.transform.position.x, map.transform.position.z, 0)*2) ;        
         offset.z = offset.y;
         offset.y = 0;
-        print(map.origin);
-        print(offset);
+
         for (int x = 0; x < bounds.size.x; x++)
         {
             for (int y = 0; y < bounds.size.y; y++)
